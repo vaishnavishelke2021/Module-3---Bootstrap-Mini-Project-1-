@@ -1,0 +1,246 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body{
+      font-family: 'Golos Text', sans-serif;
+  }
+  
+  
+  /* nav  */
+  
+  .navbar-toggler{
+      color: #4E6C50;
+      background-color: white;
+      /* font-size: 0.8rem; */
+      margin-right: 1rem;
+  }
+  
+  
+  .navbar-brand{
+      font-family: 'Righteous', cursive; 
+      font-size: 2rem;
+      padding-left: 1rem;
+      color: white;
+  }
+  
+  nav{
+      padding: 0.3rem 2rem;
+      background-color: #4E6C50;
+  }
+  
+  #navitem li a{
+      font-size: 1.2rem;
+      color: rgba(255, 255, 255, 0.716);
+      margin-left: 0.8rem;
+  }
+  
+  .dropdown-male-female{
+      width: 10vh;
+  }
+  
+  .dropdown-male-female li a{
+      width: 8rem;
+      border-radius: 3px;
+      color: black;
+  }
+  .dropdown-male-female li a:hover{
+      color: white;
+      background-color: #4e6c5094;
+  }
+  
+  #navitem li a:hover{
+      color: white;
+      cursor: pointer;
+  }
+  
+  #navitem .btn{
+      background-color: white;
+      border: 1px solid white;
+      margin-left: 1rem;
+      height: 2.3rem;
+      margin-top: 0.2rem;
+      color: #4E6C50;
+      font-weight: 500;
+  }
+  
+  #navitem .btn:hover{
+      border: 1px solid white;
+      color: white;
+      background-color: #4E6C50;
+  }
+  
+  
+  .carousel-inner .c-img{
+      height: 500px;
+      background-position: center;
+  }
+  
+  @media screen and (max-width:992px){
+      #navitem .btn{
+          width: 6rem;
+          margin-top: 1rem;
+      }
+  }
+
+  
+
+
+  /* -------------------------------------------------contact--------------------------------------------------------------------------------- */
+
+  #cover-help .row .col{
+    height: 270px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(img/cover\ help.jpg);
+    /* background-color: #4E6C50; */
+    filter: contrast(85%);
+    /* opacity: 70%; */
+}
+
+#cover-help p{
+    font-family: 'Signika Negative', sans-serif;    
+    margin-top: 6.5rem;
+    color: #4E6C50;
+    font-size: 2.4rem;
+    text-shadow:0px 1px #00000095;
+}
+
+@media screen and (max-width:500px){
+    #cover-help p{
+        font-size: 2rem;
+        /* margin-top: 6rem; */
+    }
+}
+
+
+
+
+/* -----------------------------------------------------form-------------------------------------------------------------------- */
+
+
+#form .form-group{
+    margin-top: 1.5rem;
+}
+
+#form{
+    background-color: #4e6c505f;
+    margin-top: 4rem;
+    padding: 2rem;
+    padding-bottom: 4rem;
+    border-radius: 10px;
+    margin-bottom: 5rem;
+}
+
+#form .form-group label{
+    color: #4E6C50;
+    font-size: 1.2rem;
+    margin-bottom: 0.3rem;
+}
+
+#form button{
+    margin-top: 3rem;
+    background-color: #4E6C50;
+    /* color: ; */
+    border: 1px solid #4E6C50;
+}
+
+#form button:hover{
+    background-color: white;
+    color: #4E6C50;
+    border: 1px solid #4E6C50;
+    cursor: pointer;
+    transition: ease 0.2s;
+}
+
+
+@media screen and (max-width:545px){
+    #form .form-group label{
+        font-size: 0.9rem;
+    }
+
+    #form .form-group input{
+        height: 1.5rem;
+        font-size: 0.8rem;
+    }
+
+    #form .form-group small{
+        font-size: 0.6rem;
+    }
+
+    #form button{
+        height: 2rem;
+        font-size: 0.8rem;
+    }
+}
+
+
+
+  /* -----------------------------------footer----------------------------------------------------------------------------- */
+
+.hr{
+    color: #4E6C50;
+}
+
+#footer .row{
+    width: 75%;
+    margin: auto;
+    margin-bottom: 6rem;
+    margin-top: 3rem;
+}
+
+#footer ul{
+    list-style-type: none;
+    margin-left: 0;
+    margin-top: 1rem;
+    padding: 0;
+    color: rgba(0, 0, 0, 0.667);
+}
+
+#footer h4{
+    
+    color: #4E6C50;
+    font-size: 1.4rem;
+    font-weight: 600;
+    margin-top: 2rem;
+}
+
+#footer ul li{
+    font-size: 0.9rem;
+}
+
+#footer ul li:hover{
+    cursor: pointer;
+    color: black;
+}
+
+
+#sm-icon i{
+    color: #4E6C50;
+    font-size: 2rem;
+}
+
+#sm-icon i:hover{
+    color: black;
+    cursor: pointer;
+}
+
+#copyright{
+    width: 100%;
+    background-color: #4E6C50;
+    color: white;
+    padding-top: 1rem;
+    padding-bottom: 0.2rem;
+}
+
+@media screen and (max-width:565px){
+    #sm-icon i{
+        font-size:1.5rem;
+    }
+
+    #copyright{
+        font-size: 0.8rem;
+    }
+}

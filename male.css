@@ -1,0 +1,242 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body{
+      font-family: 'Golos Text', sans-serif;
+  }
+  
+  
+  /* nav  */
+  
+  .navbar-toggler{
+      color: #4E6C50;
+      background-color: white;
+      /* font-size: 0.8rem; */
+      margin-right: 1rem;
+  }
+  
+  
+  .navbar-brand{
+      font-family: 'Righteous', cursive; 
+      font-size: 2rem;
+      padding-left: 1rem;
+      color: white;
+  }
+  
+  nav{
+      padding: 0.3rem 2rem;
+      background-color: #4E6C50;
+  }
+  
+  #navitem li a{
+      font-size: 1.2rem;
+      color: rgba(255, 255, 255, 0.716);
+      margin-left: 0.8rem;
+  }
+  
+  .dropdown-male-female{
+      width: 10vh;
+  }
+  
+  .dropdown-male-female li a{
+      width: 8rem;
+      border-radius: 3px;
+      color: black;
+  }
+  .dropdown-male-female li a:hover{
+      color: white;
+      background-color: #4e6c5094;
+  }
+  
+  #navitem li a:hover{
+      color: white;
+      cursor: pointer;
+  }
+  
+  #navitem .btn{
+      background-color: white;
+      border: 1px solid white;
+      margin-left: 1rem;
+      height: 2.3rem;
+      margin-top: 0.2rem;
+      color: #4E6C50;
+      font-weight: 500;
+  }
+  
+  #navitem .btn:hover{
+      border: 1px solid white;
+      color: white;
+      background-color: #4E6C50;
+  }
+  
+  
+  .carousel-inner .c-img{
+      height: 500px;
+      background-position: center;
+  }
+  
+  @media screen and (max-width:992px){
+      #navitem .btn{
+          width: 6rem;
+          margin-top: 1rem;
+      }
+  }
+  
+  
+
+
+  /* top matches------------------------------------------------------------------------------------------------- */
+
+  .heading{
+    color: #4E6C50;
+    font-family: 'Signika Negative', sans-serif;
+    margin-top: 4rem;
+  }
+
+  #top-matches{
+    margin-top: 5rem;
+    margin-bottom: 2.5rem;
+  }
+
+  #top-matches .card img{
+    height: 12rem;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+#top-matches .card{
+    border-radius: 10px;
+}
+
+#top-matches .card:hover{
+    box-shadow: 1px 1px 17px  #4e6c509e;
+}
+
+
+#top-matches .icon{
+    display: flex;
+    justify-content: space-between;
+}
+
+#top-matches h5{
+    font-family: 'Signika Negative', sans-serif;
+    color: #4E6C50;
+}
+
+#top-matches a{
+    background-color: #4E6C50;
+    height: 2.3rem;
+    width: 6rem;
+    color: white;
+    border: none;
+}
+
+#top-matches a:hover{
+    background-color: white;   
+    border: 1px solid #4E6C50;
+    color: #4E6C50;
+    cursor: pointer;
+}
+
+#top-matches .icon i{
+    color: #4e6c509c;
+}
+
+#top-matches .icon i:hover{
+    color: #4E6C50;
+}
+
+#top-matches p{
+    font-size: 0.9rem;
+}
+
+.load-more{
+    text-align: center;
+    color: #4E6C50;
+    margin-bottom: 4rem;
+}
+
+.load-more a{
+    color: #4E6C50;
+    text-decoration: none;
+}
+
+.load-more a:hover{
+    color: black;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+
+
+
+
+/* -----------------------------------footer----------------------------------------------------------------------------- */
+
+.hr{
+    color: #4E6C50;
+}
+
+#footer .row{
+    width: 75%;
+    margin: auto;
+    margin-bottom: 6rem;
+    margin-top: 3rem;
+}
+
+#footer ul{
+    list-style-type: none;
+    margin-left: 0;
+    margin-top: 1rem;
+    padding: 0;
+    color: rgba(0, 0, 0, 0.667);
+}
+
+#footer h4{
+    
+    color: #4E6C50;
+    font-size: 1.4rem;
+    font-weight: 600;
+    margin-top: 2rem;
+}
+
+#footer ul li{
+    font-size: 0.9rem;
+}
+
+#footer ul li:hover{
+    cursor: pointer;
+    color: black;
+}
+
+
+#sm-icon i{
+    color: #4E6C50;
+    font-size: 2rem;
+}
+
+#sm-icon i:hover{
+    color: black;
+    cursor: pointer;
+}
+
+#copyright{
+    width: 100%;
+    background-color: #4E6C50;
+    color: white;
+    padding-top: 1rem;
+    padding-bottom: 0.2rem;
+}
+
+@media screen and (max-width:565px){
+    #sm-icon i{
+        font-size:1.5rem;
+    }
+
+    #copyright{
+        font-size: 0.8rem;
+    }
+}
